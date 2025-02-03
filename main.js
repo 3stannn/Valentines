@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const noButton = document.getElementById('noButton');
     const message = document.getElementById('message');
     const imageContainer = document.getElementById('imageContainer');
-    const yaudio = new Audio('audio/yesmusic.mp3'); // Replace with the path to your music file
+    const yaudio = new Audio('audio/sey.MP3'); // Replace with the path to your music file
     const naudio = new Audio('audio/music.mp3'); // Replace with the path to your music file
 
     yesButton.addEventListener('click', function() {
