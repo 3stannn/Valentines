@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const imageContainer = document.getElementById('imageContainer');
 
     yesButton.addEventListener('click', function() {
-        message.textContent = 'Yay! I’m so happy you said yes! ❤️';
+        message.textContent = 'Yay! I’m so happy you said yes! ❤️ I love you, Sey';
         showImage();
     });
 
     noButton.addEventListener('click', function() {
-        message.textContent = 'That’s okay! Maybe next time! 😊';
+        message.textContent = 'That’s okay! Maybe next time! 😊 I love you, Sey';
         imageContainer.innerHTML = ''; // Clear the image if "No" is pressed
     });
 
